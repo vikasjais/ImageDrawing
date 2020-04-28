@@ -1,90 +1,36 @@
-<a href="https://master.d35wohgenm6m9g.amplifyapp.com/">Image Drawing Link</a>
+
 # Image Drawing
 
-This project is built on React framework using React Image Annotation
+This project is built on React framework using React Image Annotation.
+It is deployed on Amazon Amplify.
+You can draw rectangles over an image and delete drawn rectangles over images.
+You can also save edit and delete the state of images with rectangles.
+It handles all the possible corner test cases for these tasks.
+
+# Deployed Link
+<a href="https://master.d35wohgenm6m9g.amplifyapp.com/">Image Drawing Link</a>
 
 
 
 ## Getting Started
+To run on your local machine, you have to clone or download this project and unzip in your local machine directory.
+go to the project folder where package.json file is present and open terminal over here.
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+If you don't have nodeJs then install node js first from the
+<a href="https://master.d35wohgenm6m9g.amplifyapp.com/">nodeJs Official website</a>
+After Installing nodeJs, unzip the downloaded project in a directory.
+run below command
+1. npm install
 
-```
-Give examples
-```
+2. npm start
 
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+It will start the project on localhost:3000
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+After running the project on localhost
+Select an Image file by clicking the given button on the page.
+After selecting an image, you can draw rectangles over images.
