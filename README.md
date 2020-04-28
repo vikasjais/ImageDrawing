@@ -1,6 +1,7 @@
-<a href="https://master.d35wohgenm6m9g.amplifyapp.com/">Deployed page</a>
+    <a href="https://master.d35wohgenm6m9g.amplifyapp.com/">Image Drawing Link</a>
 # Image Drawing
 
+This project is built on React framework using React Image Annotation
 
 
 
