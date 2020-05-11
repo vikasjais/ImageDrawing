@@ -11,7 +11,7 @@ export default class Head extends Component {
     render() {
         return (
             <div className={"header"} >
-                <h1 style={{color:"white",marginTop:'14px'}}>Bipolar Factory</h1>
+                <h1 style={{color:"white",marginTop:'14px'}}>Image Annotation</h1>
             </div>
         );
     }
