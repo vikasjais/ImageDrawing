@@ -173,7 +173,7 @@ export default class Trial extends Component {
         return (
             <div tabIndex="0" onKeyPress={this.handleKeyPress} style={{backgroundColor: 'white'}}>
                 <Row>
-                    <Col xl={{span: 12}} lg={{span: 12}} md={{span: 12}} sm={{span: 12}} xs={{span: 12}}>
+                    <Col xl={{span: 12}} lg={{span: 12}} md={{span: 24}} sm={{span: 24}} xs={{span: 24}}>
                         <div style={{width: "600px", height: "600px",padding:'15px 15px 15px 15px',textAlign:'center'}}>
                             {(()=>{
                                 if(!this.state.uploadButton)
@@ -203,7 +203,7 @@ export default class Trial extends Component {
                         </div>
                         <br/>
                     </Col>
-                    <Col xl={{span: 6}} lg={{span: 6}} md={{span: 6}} sm={{span: 6}} xs={{span: 6}}>
+                    <Col xl={{span: 6}} lg={{span: 6}} md={{span: 12}} sm={{span: 12}} xs={{span: 12}}>
                         <Card type={'inner'}
                               style={{minHeight: "400px", border: "1px solid #BEBEBE", margin: '20px 20px 20px 20px'}}
                               align="center" title={"Rectangles"}>
@@ -236,7 +236,7 @@ export default class Trial extends Component {
                             </div>
                         </Card>
                     </Col>
-                    <Col xl={{span: 6}} lg={{span: 6}} md={{span: 6}} sm={{span: 6}} xs={{span: 6}}>
+                    <Col xl={{span: 6}} lg={{span: 6}} md={{span: 12}} sm={{span: 12}} xs={{span: 12}}>
                         <Card type={'inner'}
                               style={{minHeight: "400px", border: "1px solid #BEBEBE", margin: '20px 20px 20px 20px'}}
                               align="center" title={"Saved States of Image"}>
